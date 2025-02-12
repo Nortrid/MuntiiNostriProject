@@ -11,10 +11,10 @@ public class SharedData {
     }
 
 
-    public void clearDriver() {
-        WebDriver.quit();
-
-    }
+//    public void clearDriver() {
+//        WebDriver.quit();
+//
+//    }
 
     public WebDriver getWebDriver() {
         return WebDriver;

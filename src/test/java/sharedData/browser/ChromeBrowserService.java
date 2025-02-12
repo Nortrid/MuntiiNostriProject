@@ -34,10 +34,10 @@ public class ChromeBrowserService implements  BrowserService{
         chromeOptions.addArguments(testData.get("infobars"));
         chromeOptions.addArguments(testData.get("extensions"));
         chromeOptions.addArguments(testData.get("sandbox"));
-        if(!testData.get("headless").isEmpty()){
-            chromeOptions.addArguments(testData.get("headless"));
-        }
-
+//        if(!testData.get("headless").isEmpty()){
+//            chromeOptions.addArguments(testData.get("headless"));
+//        }
+//
         return chromeOptions;
     }
 
